@@ -1,32 +1,101 @@
-# `Resume Builder using React JS`
+# Dynamic Resume Builder
 
-This project is a resume builder web application built with React.js. It allows users to create professional resumes by filling out a user-friendly form, previewing the result in real-time, and exporting the resume as a PDF.
+## Introduction
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+Welcome to the Dynamic Resume Builder! This application allows users to create professional resumes effortlessly. Choose from two unique styles, customize sections, preview in real-time, and download your resume as a PDF with a single click.
 
-## General info
-![resume1](https://github.com/Magar0/Resume-Builder-Almabetter-Project/assets/35245789/3b0de508-e021-4d2f-b154-d314eb1419da)
-![resume2](https://github.com/Magar0/Resume-Builder-Almabetter-Project/assets/35245789/74b7e8ca-f6b1-4aec-8383-d5a7af729ba5)
+## Features
 
-* Developed a responsive Resume Builder using React JS.
-* Material UI and Bootstrap used.
-* Jspdf library used for converting react component to pdf.
-* React-router used for navigating between different pages.
+- **Two Unique Styles:** Create resumes in two different styles.
+- **Customizable Sections:** Add and edit personal information, contact details, skills, education, experience, certificates, and languages.
+- **Real-Time Preview:** See changes in real-time as you edit your resume.
+- **Profile Photo Upload:** Upload your profile photo.
+- **PDF Download:** Download your resume as a PDF.
 
-## Technologies
-* HTML, CSS, JavaScript
-* React JS, Redux Toolkit, React Router.
-* Material UI, Bootstrap.
-* Jspdf.
-	
-## Setup
-Install dependencies and run server:
-#### Frontend
+## Live Demo
+
+Check out the live demo [here](https://rb-react.vercel.app/).
+
+## GitHub Repository
+
+Access the project repository on GitHub [here](https://github.com/kavyaballa1020/Resume-Builder-React).
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v12 or higher)
+- npm or Yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kavyaballa1020/Resume-Builder-React.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Resume-Builder-React
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Application
+
+To start the development server:
+```bash
+npm start
+# or
+yarn start
 ```
- npm install
- npm start
+
+The application will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To create a production build:
+```bash
+npm run build
+# or
+yarn build
 ```
 
+## Usage
+
+1. **Home Page:** Start by navigating to the home page where you can choose to create a resume in one of two styles.
+   
+   <img src="src/components/screenshots/Resume1.jpg" alt="Home Page" width="500">
+2. **Form:** Fill out the form fields to customize your resume. All changes are reflected in real-time.
+   
+   <img src="src/components/screenshots/Resume2.jpg" alt="Form Page" width="500">
+
+## Skills and Technologies
+
+- **React**
+- **JavaScript (ES6+)**
+- **HTML & CSS**
+- **React Router**
+- **Hooks (useState, useEffect)**
+- **Custom Hooks**
+- **JSX**
+- **State Management**
+- **Form Handling**
+- **File Handling**
+- **PDF Generation (jsPDF, html2canvas)**
+- **Responsive Design**
+- **Git & GitHub**
+- **Vercel**
+- **npm/Yarn**
+- **ESLint/Prettier**
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+Thank you to all the open-source projects and contributors that helped make this application possible.
