@@ -1,0 +1,94 @@
+
+
+:root {
+  --sidebar-bg: #3B4252;
+  --main-bg: #ffffff;
+  --section-bg: #FFF3D6;
+}
+
+.tempalte7{
+  background-color: var(--bs-dark);
+  padding: 3rem 0;
+}
+
+
+.tempalte7 .sidebar {
+  background-color: var(--sidebar-bg);
+  color: white;
+  padding: 2rem;
+  height: 100%;
+}
+.tempalte7 .sidebar hr{
+  border-color: #fff;
+  opacity: 1;
+  border-width: 2px !important;
+  margin: 1.5rem 0;
+}
+.tempalte7 .sidebar h1{
+  font-size: 2rem;
+}
+.tempalte7 .sidebar .h5{
+  font-size: 1rem;
+}
+.tempalte7 .right-content{
+  background-color: var(--bs-white);
+  padding: 4rem;
+}
+
+.tempalte7 .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  margin: 0 auto 2rem;
+  display: block;
+  object-fit: cover;
+}
+
+.tempalte7 .section-title {
+  background-color: var(--section-bg);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.tempalte7 .contact-item {
+  margin-bottom: 1rem;
+}
+
+.tempalte7 .skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tempalte7 .skills-list li {
+  margin-bottom: 0.5rem;
+}
+
+.tempalte7 .experience-item {
+  margin-bottom: 2rem;
+}
+
+.tempalte7 .experience-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.tempalte7 .experience-company {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.tempalte7 .experience-tasks {
+  padding-left: 1.2rem;
+}
+
+.tempalte7 .languages-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tempalte7 .education-item {
+  margin-bottom: 1.5rem;
+}

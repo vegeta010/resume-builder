@@ -1,0 +1,139 @@
+.template4 {
+    padding: 3rem 0;
+}
+
+.template4 .resume-header {
+    padding: 2rem;
+    position: relative;
+}
+
+/* Consolidated Profile Image Container Styles */
+/* These are the primary styles for Template4's profile image container */
+.template4 .profile-image-container {
+    position: relative;
+    width: 180px; /* Specific size for Template4 */
+    height: 180px; /* Specific size for Template4 */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #fff; /* Specific border for Template4 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Add display properties from the global block if needed for centering within the 180px container */
+    display: flex; /* Helps center the image if smaller than container */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Consolidated Profile Image Styles */
+.template4 .profile-img {
+    width: 100%;
+    height: 100%; /* Ensure image fills the 180px container */
+    object-fit: cover;
+    display: block;
+}
+
+.template4 .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.template4 .position {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.template4 .contact-info {
+    background-color: #4a4a4a;
+    padding: 1rem 0;
+    color: white;
+}
+
+.template4 .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.template4 .contact-icon {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.template4 .contact-item span:first-of-type {
+    font-weight: bold;
+    min-width: 80px;
+}
+
+.template4 .contact-value {
+    color: #e0e0e0;
+}
+
+.template4 .icon-bg {
+    background-color: #f3f4f6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.template4 .section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.template4 .bullet-point {
+    width: 6px;
+    height: 6px;
+    background-color: #6b7280;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-top: 8px;
+    flex-shrink: 0;
+}
+
+.template4 .experience-item {
+    margin-bottom: 2rem;
+}
+
+.template4 .skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.template4 .skills-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+/* If you need a *global default* for profile images that applies when not within .template4,
+   you can keep a simplified version of the global block, but understand its lower specificity.
+   Otherwise, remove it. */
+/* Example of a more generalized profile image styling if it's used elsewhere as a base: */
+/*
+.profile-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee;
+    width: 150px; 
+    height: 150px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+*/

@@ -1,0 +1,175 @@
+.template9{
+  background-color: var(--bs-dark);
+  font-family: "Montserrat", sans-serif;
+}
+.template9 .content{
+  padding-top: 1rem;
+  margin: 1rem 0;
+}
+.template9 .resume-container {
+  margin: 0 auto;
+  background-color: var(--bs-white);
+  padding: 40px 20px;
+}
+.template9 header{
+  background-color: var(--bs-light);
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.template9 header img{
+  margin-bottom: -180px;
+}
+.template9 header h6{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.template9 header img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.template9 .profile-header {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .template9 .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .template9 .section-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--bs-dark);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  /* .template9 .section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #6c757d;
+  } */
+  
+  .template9 .contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .template9 .contact-info li {
+    margin-bottom: 10px;
+    color: var(--bs-secondary);
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .template9 .contact-info li:last-child {
+    border-bottom: none;
+  }
+  
+  
+  .template9 .skills-list li {
+    margin-bottom: 8px;
+    color: var(--bs-secondary);
+    padding: 0;
+
+  }
+
+  .template9 p{
+    color: var(--bs-secondary);
+  }
+  
+  .template9 .skills-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .template9 .experience-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .template9 .experience-item li{
+    color: var(--bs-secondary);
+  }
+  
+  .template9 .experience-item:last-child {
+    border-bottom: none;
+  }
+  
+  .template9 .experience-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 5px;
+  }
+  
+  .template9 .experience-company {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .template9 .experience-date {
+    color: #adb5bd;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .template9 .education-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .template9 .education-item .h5{
+    font-size: 1rem;
+  }
+  
+  .template9 .education-item:last-child {
+    border-bottom: none;
+  }
+  
+  .template9 .vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #dee2e6;
+  }
+  
+  .vertical-line-left {
+    left: 0;
+  }
+  
+  .template9 .vertical-line-right {
+    right: 0;
+  }
+  
+  .template9 .section-container {
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .template9 .profile-section {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e9ecef;
+  }

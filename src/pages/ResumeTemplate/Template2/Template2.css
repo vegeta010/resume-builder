@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.template2{
+    padding: 3rem 0;
+    background-color: var(--bs-dark);
+    font-family: "Montserrat", sans-serif;
+}
+#template2-to-print{
+    height: 297mm;
+}
+
+.template2 .template2-sidenav{
+    background-color: rgb(2 91 129);
+    padding: 2rem;
+}
+.template2 .template2-sidenav .profile-img{
+    text-align: center;
+}
+.template2 .template2-sidenav .profile-img img{
+    border-radius: 50%;
+}
+.template2 .template2-sidenav h5{
+    margin-top: 1rem;
+    color: var(--bs-white);
+}
+.template2 .template2-sidenav hr{
+    width: 30%;
+    border-color: #fff;
+    margin: .5rem 0;
+    opacity: 1;
+}
+.template2 .template2-sidenav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.template2 .template2-sidenav ul li{
+    color: var(--bs-white);
+    font-size: 14px;
+    margin: .5rem 0;
+}
+.template2 .header{
+   padding: 1rem;
+   text-align: center;
+   background-color: var(--bs-light);
+}
+.template2 .header hr{
+    width: 20%;
+    height: 2px;
+    opacity: 1;
+    background-color: var(--bs-dark);
+    margin: .5rem auto;
+}
+.template2 .summary{
+    padding: 1rem;
+    background-color: var(--bs-white);
+}
+.template2 .summary .experience h5{
+   color: rgb(2 91 129);
+}
+.template2 .summary .experience hr{
+   width: 20%;
+   margin: .5rem 0;
+}
+.template2 .summary .experience ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.template2 .summary .experience ul li{
+    list-style: none;
+}
+.template2 .summary .experience ul li h5{
+    font-size: 14px;
+    margin: 0;
+}
+.template2 .summary .experience ul li h6{
+    font-size: 12px;
+}
+.template2 .summary .experience ol{
+    margin: 0;
+}
+.template2 .summary .experience ol li{
+    font-size: 14px;
+    color: var(--bs-secondary);
+}

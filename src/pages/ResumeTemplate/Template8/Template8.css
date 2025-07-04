@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.template8{
+  background-color: var(--bs-dark);
+  padding: 3rem 0;
+}
+
+.template8 .profile-section {
+  /* padding: 2rem; */
+  background-color: #fff;
+  position: relative;
+}
+
+.template8 .profile-bg{
+  background-color: hsl(27.27deg 37.93% 94.31%);
+  height: 130px;
+  position: absolute;
+  top: 0;
+  margin: 0px 0px 0px 30px;
+  z-index: 100;
+  width: 100%;
+}
+.template8 .profile-bg img{
+ margin-top: 50px;
+  border: 14px solid var(--bs-white);
+  margin-left: 60px;
+  width: 150px;
+  height: 150px;
+}
+
+.header-bg{
+  background-color: hsl(196.92deg 17.97% 57.45%);
+  height: 40px;
+}
+
+.template8 .profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.template8 .name-title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.template8 .profession {
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  color: #333;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.template8 .section-title-bg{
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+
+.template8 .section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: 0;
+  color: #333;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.template8 .section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: #95a5a6;
+}
+
+.template8 .contact-info {
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+  padding: 2rem;
+}
+.template8 .right-content{
+  padding: 3rem 3rem 0 3rem;
+}
+
+.contact-info .section-title{
+  margin-bottom: 1.2rem;
+}
+
+.template8 .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.template8 .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.template8 .contact-item span{
+  color: var(--bs-dark);
+}
+
+.template8 .contact-item .icon{
+  color: var(--bs-white);
+}
+
+.template8 .icon {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(126 154 165);
+  color: #fff;
+  padding: 6px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.template8 .icon svg {
+  width: 16px;
+  height: 16px;
+} 
+.education-section{
+  background-color: hsl(27.27deg 37.93% 94.31%) ;
+  padding: 1rem;
+  margin-left: 30px;
+}
+.template8 .section-content {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+
+.template8 .experience-item {
+  margin-bottom: 2rem;
+}
+
+.template8 .experience-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.template8 .experience-company {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.template8 .experience-date {
+  color: var(--bs-dark);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.template8 .experience-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.template8 .experience-list li {
+  margin-bottom: 0.5rem;
+  color: var(--bs-dark);
+  position: relative;
+  padding-left: 1rem;
+}
+
+.template8 .experience-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #95a5a6;
+}
+
+.template8 .skills-list {
+
+  padding-left: 0;
+}
+
+.template8 .skills-list li {
+  margin-bottom: 0.5rem;
+  color: var(--bs-dark);
+}
+
+.template8 .language-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.template8 .language-bars {
+  display: flex;
+  gap: 2px;
+}
+
+.template8 .language-bar {
+  width: 15px;
+  height: 15px;
+  background-color: #95a5a6;
+  opacity: 0.3;
+}
+
+.template8 .language-bar.filled {
+  opacity: 1;
+}
+
+.template8 .reference-item {
+  margin-bottom: 1rem;
+}
+
+.template8 .reference-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.template8 .reference-title {
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.template8 .reference-contact {
+  color: #95a5a6;
+}
+.footer-bg{
+  background-color: hsl(196.92deg 17.97% 57.45%);
+  height: 50px;
+  bottom: 0;
+  z-index: 2;
+  position: absolute;
+}
