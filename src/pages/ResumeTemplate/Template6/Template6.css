@@ -1,0 +1,105 @@
+.template6{
+  padding: 3rem 0;
+  background-color: var(--bs-dark);
+}
+
+.template6 .header {
+  display: flex;
+  background-color: #fff;
+  color: #ffffff;
+}
+
+.template6 .profile-section {
+  background-color: #FFB800;
+  padding: 2rem;
+  width: 200px;
+}
+
+.template6 .profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+
+.template6 .info-section {
+  padding: 2rem;
+  flex-grow: 1;
+  background-color: #000000;
+}
+
+.template6 .contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.template6 .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.template6 .section-title {
+  background-color: #FFB800;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.template6 .section-title-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  display: flex
+;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  top: -6px;
+  left: -26px;    
+}
+
+.template6 .content-section {
+  padding: 3rem;
+  background-color: var(--bs-white);
+}
+
+.template6 .education-item, .experience-item {
+  margin-bottom: 1.5rem;
+}
+.template6 .education-item, .experience-item  ul li{
+  list-style-type: square;
+}
+
+.template6 .education-date {
+  font-weight: bold;
+}
+
+.template6 .skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.template6 .evaluation-list {
+  list-style-type: none;
+}
+
+.template6 .evaluation-list li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1rem;
+  list-style-type: square;
+}
+.template6 .skills ul li{
+  list-style-type: square;  
+}
+
+

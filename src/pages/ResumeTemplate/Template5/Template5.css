@@ -1,0 +1,190 @@
+.template5{
+    padding: 3rem 0;
+    background-color: var(--bs-dark);
+}
+  
+  .template5 .left-section {
+    background-color: white;
+    padding: 3rem 2.5rem;
+    width: 100%;
+  }
+  
+ .template5 .right-section {
+    background-color: #003366;
+    color: white;
+    width: 100%;
+    padding: 3rem 2.5rem;
+    height: 100%;
+  }
+  
+ .template5 .profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 0 0 6px #0066cc;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+  
+ .template5 .name {
+    margin-bottom: 2rem;
+  }
+  
+ .template5 .name h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+ .template5 .name span {
+    color: #0066cc;
+  }
+  
+ .template5 .name h3 {
+    font-size: 1.2rem;
+    color: #666666;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+ .template5 .section-title {
+    color: var(--bs-dark);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+ .template5 .right-section .section-title {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+ .template5 .work-item,
+ .template5 .education-item {
+    margin-bottom: 2rem;
+  }
+  
+ .template5 .work-period {
+    color: #666666;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+ .template5 .work-title {
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+ .template5 .work-company {
+    color: #666666;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+ .template5 .work-item ul,
+ .template5 .education-item ul {
+    padding-left: 1.25rem;
+    margin-top: 0.5rem;
+    color: #333333;
+  }
+  
+ .template5 .work-item li,
+ .template5 .education-item li {
+    margin-bottom: 0.25rem;
+  }
+  
+ .template5 .education-item p {
+    margin: 0.25rem 0;
+    color: #333333;
+  }
+  
+ .template5 .contact-item {
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.95rem;
+  }
+  
+ .template5 .contact-item svg {
+    min-width: 24px;
+  }
+  
+ .template5 .skill-category {
+    margin-bottom: 1.75rem;
+  }
+  
+ .template5 .skill-category h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+ .template5 .skill-category p {
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+ .template5 .certifications {
+    margin-top: 2.5rem;
+  }
+  
+ .template5 .certifications ul {
+    padding-left: 1.25rem;
+    margin: 0;
+  }
+  
+ .template5 .certifications li {
+    margin-bottom: 0.5rem;
+    color: #333333;
+  }
+  
+  /* Profile section specific styles */
+ .template5 .profile {
+    margin-bottom: 2.5rem;
+  }
+  
+ .template5 .profile p {
+    color: #333333;
+    margin: 0;
+    line-height: 1.8;
+  }
+  
+  .template5 .skills ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .template5 .skills ul li{
+    text-transform: uppercase;
+  }
+
+  .pdf-profile-image {
+    width: 150px !important;
+    height: 150px !important;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 50% !important;
+    display: block !important;
+    flex-shrink: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensure the container doesn't cause stretching */
+.pdf-profile-image-container,
+.d-flex.justify-content-center {
+    flex-shrink: 0 !important;
+    width: fit-content !important;
+}

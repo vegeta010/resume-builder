@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.template3{
+    padding: 3rem 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--bs-dark);
+}
+
+.template3 .dr-resume header{
+   background-color: rgb(40 121 171);
+   padding: 4rem 3rem 2rem 3rem;
+}
+.template3 .dr-resume{
+    background-color: var(--bs-white);
+}
+.template3 .dr-resume .left-content {
+    background-color: #ebfcfa;
+    padding: 3rem;
+    width: 100%;
+    
+}
+.template3 .dr-resume header img{
+    border-radius: 50%;
+    width: 150px; /* Desired preview width */
+    height: 150px; /* Desired preview height */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+}
+.template3 .dr-resume .skills ul li{
+    font-size: 14px;
+    margin: .50rem 0;
+}
+.template3 .dr-resume .skills h5{
+    color: rgb(40 121 171);
+    font-weight: 600;
+}
+.template3 .dr-resume header h2,
+.template3 .dr-resume header h4   
+{
+    color: var(--bs-white);
+}
+.template3 .dr-resume header hr{
+    border-color: var(--bs-white);
+}
+.template3 .dr-resume header ul{
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+}
+.template3 .dr-resume header ul li{
+    color: var(--bs-white);
+    list-style: none;
+}
+.template3 .dr-resume .work-experience{
+    display: flex;
+    align-items: start;
+    margin: 1rem 0;
+    gap: 1rem ;
+}
+.template3 .dr-resume .key-points{
+    padding: 3rem;
+    width: 100%;
+}
+.template3 .dr-resume .key-points .icon-bg{
+    background-color: rgb(40 121 171);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    border-radius: 50%;
+}
+.template3 .dr-resume .key-points .icon-bg svg{
+    color: var(--bs-white);
+    height: 20px;
+    width: 20px;
+}
+.template3 .dr-resume .title{
+    color: rgb(40 121 171);
+    font-size: 24px;
+   margin: 1rem 0;
+}
+.template3 .dr-resume .key-points ul li{
+    margin: .50rem 0;
+}
+.work-experince{
+    margin-top: 3rem;
+}
+.work-experince h5{
+    color:rgb(40 121 171) ;
+    font-weight: 600;
+}

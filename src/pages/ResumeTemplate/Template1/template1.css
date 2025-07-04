@@ -1,0 +1,18 @@
+.pdf-profile-image {
+    width: 150px !important;
+    height: 150px !important;
+    aspect-ratio: 1/1 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 50% !important;
+    display: block !important;
+    flex-shrink: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensure the container doesn't cause stretching */
+.pdf-profile-image-container,
+.d-flex.justify-content-center {
+    flex-shrink: 0 !important;
+    width: fit-content !important;
+}
